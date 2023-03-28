@@ -1,0 +1,13 @@
+{
+    "name": "LOokup",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "SqlServer105",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "SqlServerTable",
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

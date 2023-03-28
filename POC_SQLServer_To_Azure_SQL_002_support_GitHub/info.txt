@@ -1,0 +1,6 @@
+selected resource name:		POC_SQLServer_To_Azure_SQL_002
+selected resource type:		pipeline
+factory name:			UK023
+factory location:		centralindia
+subscription id:		9ebca646-5716-461f-a498-de3868ff57aa
+time of download (UTC):		Tue, 28 Mar 2023 06:21:07 GMT

@@ -1,0 +1,25 @@
+{
+    "name": "SqlServerTable72",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "SqlServer105",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "Table_names": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "SqlServerTable",
+        "schema": [],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": {
+                "value": "@dataset().Table_names",
+                "type": "Expression"
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "trigger112345",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Stopped",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "POC_SQLServer_To_Azure_SQL_002",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Minute",
+                "interval": 1,
+                "startTime": "2023-03-24T08:48:00",
+                "timeZone": "India Standard Time"
+            }
+        }
+    }
+}
